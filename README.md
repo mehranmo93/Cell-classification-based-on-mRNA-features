@@ -66,6 +66,9 @@ The only remaining issue lies in the classification of the cell_edge and extranu
 
 The next work could be converting 2D dilation to 3D dilation to address the problem.
 
+Code files contain:
 
-
+400_points_ppm_i_scale : Convert 3D point pattern to fixed size 2D images.
+Mask_function : Create a mask images with the distance function.
+Dil_400_conf_dist4 : The main code to train the network.
 
