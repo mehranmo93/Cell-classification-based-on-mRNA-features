@@ -17,7 +17,7 @@ The function T has the following properties:
 
 We view the kernel as playing the role of set K, and the images as playing the role of set X in the dilation layer. Additionally, we consider that the kernel values can either be 0 or -1, while the image pixels can take the values 0 if it was in X<sub>c</sub> and 1 if it was in X. When the kernel touches X, it yields 1; otherwise, it yields 0. By sliding the kernel through the image and calculating the average, we can determine T(K) for that set. Here you can see the schematics of morpho dilation layer we used.
 
-![](https://github.com/mehranmo93/Cell-classification-based-on-mRNA-features/blob/master/IMG/Schematic_Dilation.png)
+<img src="https://github.com/mehranmo93/Cell-classification-based-on-mRNA-features/blob/master/IMG/Schematic_Dilation.png" width="600">
 
 This is a model with just one Dilation layer you can add more layer if you want. This model has a good result on classifying Poisson point pattern and Neyman Scotte point pattern but on cell data the accuracy is not good enough. So, we have to use some trick!
 
