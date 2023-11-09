@@ -45,7 +45,8 @@ A) Cell image with cell membrane, cell nucleus membrane, and mRNA spots. B) Dist
 
 After computing the weighted average of the points, we can concatenate it with the results from the dilation layer and then pass it through the Softmax function following a linear transition. Therefore, the final model incorporating the distance function will appear as follows:
 
-![](https://github.com/mehranmo93/Cell-classification-based-on-mRNA-features/blob/master/IMG/schematic_dil_distance.png)
+
+<img src="https://github.com/mehranmo93/Cell-classification-based-on-mRNA-features/blob/master/IMG/Schematic_dil_distance.png" width="600">
 
 The final accuracy dilation layer without the distance function is 64%  and you can see the confusion matrix for that. 
 
