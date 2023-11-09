@@ -1,7 +1,7 @@
 # Cell-classification-based-on-mRNA-features
 ## Classifying different point patterns
 We used a Morpho Dilation layer, first introduced by Santiago Velasco, to classify different point patterns. This layer works like a convolutional layer but uses max plus algebra. Instead of multiplication, it adds each weight to its corresponding pixel value, and then the maximum result is passed to the next layer.
-
+ 
 > formule dilation
 
 But the logic behind this model is mathematical concept, Choquet capacity.
