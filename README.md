@@ -2,7 +2,8 @@
 ## Classifying different point patterns
 We used a Morpho Dilation layer, first introduced by Santiago Velasco, to classify different point patterns. This layer works like a convolutional layer but uses max plus algebra. Instead of multiplication, it adds each weight to its corresponding pixel value, and then the maximum result is passed to the next layer.
  
-> formule dilation
+![]([https://example.com/path/to/your/image.jpg](https://github.com/mehranmo93/Cell-classification-based-on-mRNA-features/blob/master/IMG/Dilation.png))
+
 
 But the logic behind this model is mathematical concept, Choquet capacity.
 Choquet capacity T<sub>X</sub>(K), or denoted simply by T(K), is the probability that the compact set K ("closed" and "bounded") hits the set X, Which is equal to 1 minus the probability of k being subset of X
