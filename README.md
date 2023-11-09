@@ -57,6 +57,7 @@ As it is clear there are some difficulties in classifying:
 *	Intranuclear & nuclear_edge, Perinuclear
 *	Pericellular & perinuclear
 After adding distance function, the accuracy increases to 92% and you can see the confusion matrix for that:
+
 ![](https://github.com/mehranmo93/Cell-classification-based-on-mRNA-features/blob/master/IMG/final_confusion_matrix.png)
 
 The only remaining issue lies in the classification of the cell_edge and extranuclear classes, stemming from the conversion of the original 3D images to 2D. Since the morpho dilation layer is designed for 2D and adapting it to 3D would involve increased computational costs and slower processing, we opted to convert the 3D images to 2D. As a result, these converted images now exhibit striking similarities, as illustrated in the images below:
