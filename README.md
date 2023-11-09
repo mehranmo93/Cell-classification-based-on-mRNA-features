@@ -8,7 +8,7 @@ We used a Morpho Dilation layer, first introduced by Santiago Velasco, to classi
 But the logic behind this model is mathematical concept, Choquet capacity.
 Choquet capacity T<sub>X</sub>(K), or denoted simply by T(K), is the probability that the compact set K ("closed" and "bounded") hits the set X, Which is equal to 1 minus the probability of k being subset of X
 
-<img src="https://github.com/mehranmo93/Cell-classification-based-on-mRNA-features/blob/master/IMG/Choquet_Capacity.png" width="600">
+<img src="https://github.com/mehranmo93/Cell-classification-based-on-mRNA-features/blob/master/IMG/Choquet_Capacity.png" width="400">
 
 The function T has the following properties: 
 
